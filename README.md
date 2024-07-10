@@ -37,3 +37,40 @@ This GitHub Repository contains all the projects that are completed under the Pr
    - Calculate and report the accuracy of the TFLite model.
 
    h. Analyzing and Visualizing the data 
+
+
+# House Price Prediction (Linear Regression)
+Technical Description:
+This project implements a machine learning model using linear regression to predict house prices. Key components include:
+
+Data preprocessing: Handling missing values, feature scaling, and encoding categorical variables
+Feature selection: Identifying the most relevant features affecting house prices
+Model implementation: Using scikit-learn's LinearRegression class
+Model evaluation: Employing metrics such as Mean Squared Error (MSE), R-squared, and Mean Absolute Error (MAE)
+Cross-validation: Ensuring model robustness and generalizability
+Visualization: Plotting residuals and feature importance for model interpretation
+
+# Customer Segmentation (K-means Clustering)
+Technical Description:
+This project uses K-means clustering to segment customers based on retail sales data. Key aspects include:
+Data cleaning and preparation: Handling outliers and normalizing features
+Feature engineering: Creating relevant metrics like Recency, Frequency, and Monetary (RFM) values
+Determining optimal cluster number: Using the elbow method and silhouette score
+Implementing K-means: Utilizing scikit-learn's KMeans class
+Cluster analysis: Characterizing each segment based on centroid values
+Visualization: Creating scatter plots and radar charts to represent customer segments
+Actionable insights: Providing business recommendations based on segment characteristics
+
+# Virtual Mouse with Hand Gesture Recognition
+Technical Description:
+This project creates a virtual mouse using computer vision and hand gesture recognition. Key technologies and components include:
+
+OpenCV: For image capture and processing from the webcam feed
+MediaPipe: Employing the Hands module for accurate hand landmark detection
+Gesture recognition: Implementing custom logic to interpret hand poses and movements
+Mouse control: Using PyAutoGUI to translate gestures into mouse actions (movement, clicks, scrolling)
+Real-time processing: Optimizing the pipeline for low-latency response
+User interface: Developing a simple GUI to display the webcam feed and system status
+Gesture customization: Allowing users to define and save custom gestures for different actions
+
+The project integrates these technologies to create a seamless, hands-free computer interaction experience, demonstrating practical applications of computer vision and machine learning in human-computer interaction.
